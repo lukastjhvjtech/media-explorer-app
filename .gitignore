@@ -6,32 +6,37 @@ build/
 # Android
 *.apk
 *.aar
+*.so
 *.dex
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
 # IDE
 .idea/
-.vscode/
 *.iml
 *.iws
-*.ipr
+.vscode/
 
-# Dependencies
-node_modules/
-vendor/
-
-# OS
+# Temp files
+*.tmp
+*.swp
+*~
 .DS_Store
 Thumbs.db
+
+# Python (if applicable)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+.env
 ```

@@ -1,0 +1,29 @@
+# pubspec.yaml
+    name: media_explorer_app
+    description: Ein privater Medien-Explorer mit lokalen und Server-Quellen.
+    publish_to: 'none'
+
+    version: 1.0.0+1
+    environment:
+      sdk: '>=3.0.0 <4.0.0'
+    dependencies:
+      flutter:
+        sdk: flutter
+      # Netzwerkanfragen
+      dio: ^5.3.2 # Oder die neueste Version
+      # Lokale Medien abrufen
+      photo_manager: ^2.7.0 # Oder die neueste Version
+      # Video Wiedergabe
+      video_player: ^2.8.1 # Oder die neueste Version
+      # Optional: Bessere UI-Komponenten, falls gewünscht
+      cupertino_icons: ^1.0.2
+      # WebDAV Client (wird benötigt, falls WebDAV genutzt wird)
+      webdav_client: ^0.4.0 # Oder eine alternative Bibliothek
+
+    dev_dependencies:
+      flutter_test:
+        sdk: flutter
+      flutter_lints: ^3.0.0
+
+    flutter:
+      uses-material-design: true

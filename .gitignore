@@ -1,134 +1,67 @@
-# Miscellaneous
-    *.class
-    *.lock
-    *.log
-    *.pyc
-    *.swp
-    .DS_Store
-    .atom/
-    .buildlog/
-    .history
-    .svn/
+```
+# Logs and temp files
+*.log
 
-    # Flutter/Dart/Pub related
-    **/doc/api/
-    .dart_tool/
-    .idea/
-    .pub-cache/
-    .pub/
-    /build/
-    /linux/flutter/ephemeral
-    /macos/Flutter/ephemeral
-    /windows/Flutter/ephemeral
-    secrets.gpg
-    secrets.json
-    *.jks
-    *.keystore
-    .code-workspace
+# Environment
+.env
+.env.local
+*.env.*
 
-    # Android related
-    **/android/**/gradle-wrapper.properties
-    **/android/.gradle
-    **/android/captures/
-    **/android/gradlew
-    **/android/gradlew.bat
-    **/android/key.properties
-    **/android/local.properties
-    **/android/**/GeneratedPluginRegistrant.java
-    **/android/**/java/**/*.g.kt
-    **/android/**/java/**/*.g.dart
-    **/android/**/MainFlutterWindow.g.kt
-    **/android/**/MainFlutterWindow.g.dart
-    **/android/**/MainActivity.class
-    **/android/**/app.flx
-    **/android/**/app.tar.gz
-    **/android/**/flutter_assets/
-    **/android/**/app_incremental.dill
-    **/android/**/app.dill
-    **/android/**/kernel_blob.bin
-    **/android/**/intermediates/
-    **/android/**/outputs/
-    **/android/**/signing_config_android_gradle
-    **/android/**/signing_config_debug_android_gradle
-    **/android/**/appbundle/
-    **/android/**/android.iml
-    **/android/**/android_*.iml
-    **/android/**/generated/
-    **/android/**/GeneratedPluginRegistrant.java
-    **/android/**/GeneratedPluginRegistrant.kt
-    **/android/**/GeneratedPluginRegistrant.g.kt
-    **/android/**/GeneratedPluginRegistrant.g.dart
-    **/android/**/GeneratedPluginRegistrant.g.rocks.dart
-    **/android/**/GeneratedPluginRegistrant.g.surf.dart
-    **/android/**/GeneratedPluginRegistrant.g.web.dart
-    **/android/**/GeneratedPluginRegistrant.g.wheel.dart
-    **/android/**/GeneratedPluginRegistrant.g.wind.dart
-    **/android/**/GeneratedPluginRegistrant.g.wisp.dart
-    **/android/**/GeneratedPluginRegistrant.g.wobble.dart
-    **/android/**/GeneratedPluginRegistrant.g.woof.dart
-    **/android/**/GeneratedPluginRegistrant.g.yarn.dart
-    **/android/**/GeneratedPluginRegistrant.g.yawn.dart
-    **/android/**/GeneratedPluginRegistrant.g.yelp.dart
-    **/android/**/GeneratedPluginRegistrant.g.yikes.dart
-    **/android/**/GeneratedPluginRegistrant.g.yoink.dart
-    **/android/**/GeneratedPluginRegistrant.g.yonder.dart
-    **/android/**/GeneratedPluginRegistrant.g.yoyo.dart
-    **/android/**/GeneratedPluginRegistrant.g.yuck.dart
-    **/android/**/GeneratedPluginRegistrant.g.yum.dart
-    **/android/**/GeneratedPluginRegistrant.g.yummy.dart
-    **/android/**/GeneratedPluginRegistrant.g.zap.dart
-    **/android/**/GeneratedPluginRegistrant.g.zest.dart
-    **/android/**/GeneratedPluginRegistrant.g.zip.dart
-    **/android/**/GeneratedPluginRegistrant.g.zoom.dart
-    **/android/**/GeneratedPluginRegistrant.g.zzz.dart
-    **/android/**/GeneratedPluginRegistrant.g.dart.js
-    **/android/**/GeneratedPluginRegistrant.g.part.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.android-arm.so
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.android-arm64.so
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.android-x64.so
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.android-x86.so
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.darwin-x64.dylib
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.darwin-arm64.dylib
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.linux-x64.so
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.windows-x64.dll
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.windows-x86.dll
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.mjs
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.dart.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.part.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.sound.null.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.sound.null.mjs
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.sound.null.dart.js
-    **/android/**/GeneratedPluginRegistrant.g.sound.null.web.sound.null.part.js
-    **/ios/**/.generated/
-    **/ios/**/Flutter/app.flx
-    **/ios/**/Flutter/app.zip
-    **/ios/**/Flutter/build/
-    **/ios/**/Flutter.framework
-    **/ios/**/Flutter.podspec
-    **/ios/**/Pods/
-    **/ios/**/Runner.xcworkspace
-    **/ios/**/Podfile.lock
-    **/ios/**/Runner.xcodeproj/project.xcworkspace
-    **/ios/**/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/android/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/example/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/integration_test/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/test/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/example/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/integration_test/**
-    **/ios/**/Flutter/ephemeral/.symlinks/plugins/**/test/**
-    **/linux/flutter/ephemeral/.plugin_symlinks/**
-    **/macos/flutter/ephemeral/.plugin_symlinks/**
-    **/windows/flutter/ephemeral/.plugin_symlinks/**
+# Editors
+.vscode/
 
-    # macOS
-    .DS_Store
-    .AppleDouble
-    .LSOverride
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+build/
+target/
+.gradle/
+.mypy_cache/
+.pytest_cache/
+coverage/
+htmlcov/
+.coverage
 
-    # Windows
-    Thumbs.db
-    ehthumbs.db
-    Desktop.ini
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Archives
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```

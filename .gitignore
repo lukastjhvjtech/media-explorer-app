@@ -1,21 +1,26 @@
 ```
-# Gradle
-.gradle/
+# Build artifacts
 build/
-
-# Android
+.gradle/
 *.apk
 *.aar
 *.so
-*.dex
+*.jar
 
-# Logs
-*.log
+# Local configuration file (sdk path, etc)
+local.properties
 
-# Environment
-.env
-.env.local
-*.env.*
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio generated files
+captures/
+*.keystore
+*.jks
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
 
 # IDE
 .idea/
@@ -25,18 +30,18 @@ build/
 
 # Temp files
 *.tmp
-*.swp
-*~
-.DS_Store
-Thumbs.db
+*.temp
+*.log
 
-# Python (if applicable)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+# Environment
+.env
+.env.local
+*.env.*
+
+# Dependencies
+node_modules/
 venv/
 .venv/
-.env
+__pycache__/
+*.egg-info/
 ```

@@ -2,24 +2,36 @@
 # Gradle
 .gradle/
 build/
-target/
 
 # Android
 *.apk
 *.aar
 *.dex
-local.properties
-.gradle/
-!/gradle/wrapper/gradle-wrapper.properties
 
-# Kotlin
-*.kotlin_metadata
-*.kotlin_builtins
+# Environment
+.env
+.env.local
+*.env.*
 
 # Logs
 *.log
 
-# OS generated files
+# Temporary files
+*.tmp
+*.swp
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Dependencies
+node_modules/
+vendor/
+
+# OS
 .DS_Store
 Thumbs.db
 ```

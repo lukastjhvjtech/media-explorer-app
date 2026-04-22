@@ -14,8 +14,7 @@ dependencies:
   photo_manager: ^2.7.0
   video_player: ^2.8.1
   cupertino_icons: ^1.0.2
-  webdav_client: ^0.4.0
-
+  webdav_client: ^1.2.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
